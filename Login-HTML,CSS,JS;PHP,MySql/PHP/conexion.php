@@ -6,10 +6,13 @@ $database = "bzujvkqhvdhxbtqgbcez";
 $port = 3306;
 
 $conexion = mysqli_connect($host, $user, $password, $database, $port);
-
+/*
 if ($conexion) {
     echo 'Conectado a la base de datos';
 } else {
     echo 'No se pudo conectar a la base de datos';
-}
+}*/
+
+
+
 ?>
