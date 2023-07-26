@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-Bar{
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+}
+
+.conteiner-main{
+    padding: 1%;
+}
+.seccion-contaier{
+    display: flex;
+    margin: 1%;
+    flex-direction: column;
+    
+}
+.conteiner-formulario-notas{
+    border: 1px solid red;
+    
+}
+.formulario-Notas{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.formulario-Notas > input{
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100px;
+    
+}
+
+.btnPromedio{
+    font-size: 16px;
+    width: 150px;
+    height: 28px;
+}
+
+.inputResultado{
+    
+}
+
+
+/*.btnPromedio{
+    font-size: 28px;
+}*/
